@@ -1,4 +1,4 @@
-如何使用
+How to use
 
 A 
 ```shell
@@ -33,7 +33,7 @@ Open the URL printed in the terminal (Vite defaults to `http://localhost:5173`).
 | `npm run dev` | Start the development server (MSW mocks API requests) |
 
 | `npm test` | Run unit tests once (Vitest) |
-
+| `npm run test:ui` | Launch the Vitest UI test interface |
 
 ### b. Assumptions made
 
