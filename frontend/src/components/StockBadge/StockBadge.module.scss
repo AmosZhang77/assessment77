@@ -1,0 +1,26 @@
+.stockBadge {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 500;
+
+  &--in {
+    background: #f6ffed;
+    color: #389e0d;
+    border: 1px solid #b7eb8f;
+  }
+
+  &--low {
+    background: #fff7e6;
+    color: #d46b08;
+    border: 1px solid #ffd591;
+  }
+
+  &--out {
+    background: #fff1f0;
+    color: #cf1322;
+    border: 1px solid #ffa39e;
+  }
+}

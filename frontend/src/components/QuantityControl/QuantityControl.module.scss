@@ -1,0 +1,46 @@
+.quantityControl {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  &__btn {
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+    border: 1.5px solid #d9d9d9;
+    background: #fff;
+    font-size: 18px;
+    line-height: 1;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s;
+    color: #333;
+    font-family: inherit;
+
+    &:hover:not(:disabled) {
+      border-color: #1677ff;
+      color: #1677ff;
+    }
+
+    &:disabled {
+      color: #bfbfbf;
+      cursor: not-allowed;
+      background: #f5f5f5;
+    }
+  }
+
+  &__value {
+    min-width: 28px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: #1a1a1a;
+  }
+
+  &__hint {
+    font-size: 13px;
+    color: #8c8c8c;
+  }
+}
